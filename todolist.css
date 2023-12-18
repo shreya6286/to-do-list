@@ -1,0 +1,87 @@
+.image{
+    background-image: url(./assets/mountain.jpeg);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+}
+.columns{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+}
+.container{
+    margin-bottom: 60px;
+    margin-top: 30px;
+    background-color: white;
+    min-height: 400px;
+    box-shadow: 5px 5px 15px gray;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.hh{
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+input{
+    font-size: 25px;
+    margin-left: 100px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 15px;
+    width: 400px;
+    box-shadow: 5px 5px 15px gray;
+}
+.btn{
+    height: 63px;
+    border: 1px solid white;
+    background-color: white;
+    width: 120px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px gray;
+    margin-left: 40px;
+    font-size: 18px;
+    color: rgb(71, 70, 70);
+}
+.panel{
+    height: 45px;
+    background-color: thistle;
+    box-shadow: 5px 5px 15px gray;
+    border: 1px solid thistle;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 27px;
+    font-style: italic;
+    margin-left: 30px;
+}
+.done{
+    background-color: rgb(67, 160, 124);
+    height: 35px;
+    width: 35px;
+    border: 1px solid green;
+    border-radius: 100%;
+    box-shadow: 5px 5px 15px gray;
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.del{
+    background-color: rgb(230, 112, 45);
+    height: 35px;
+    width: 35px;
+    border: 1px solid red;
+    border-radius: 100%;
+    box-shadow: 5px 5px 15px gray;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.donetext{
+    text-decoration: line-through;
+}
